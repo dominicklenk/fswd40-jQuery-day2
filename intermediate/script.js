@@ -34,16 +34,30 @@ var object3 = {
 	}
 };
 var array =[];
-
+var sum =0;
  function addtocart1(){
     array.push(object1);
+    result();
  }
 
  function addtocart2(){
     array.push(object2);
+    result();
  }
 
  function addtocart3(){
    array.push(object3);
+   result();
  }
+var sum =0;
+
+function result(){
+	
+for(var i=0; i<array.length; i++){
+	sum += array[i].price;
+}
+document.getElementById("result").innerHTML =
+	 sum;
+}
+
 
