@@ -1,14 +1,14 @@
 var object1 = {
 	 name : "ring",
 	 price : 20,
-	 count : 1 ,
+	 count : 1,
 	 countsum1 : function(){
 	 	return this.count ++ ;
-	 }
+	 },
 	 countminus1 : function(){
 		return this.count -- ;
 	}
-}
+};
 
 var object2 = {
 	name : "watch",
@@ -16,11 +16,11 @@ var object2 = {
 	count : 1,
 	countsum2 : function(){
 		return this.count ++ ;
-	}
+	},
 	countminus2: function(){
 		return this.count -- ;
 	}
-}
+};
 
 var object3 = {
 	name : "bracelet",
@@ -28,27 +28,22 @@ var object3 = {
 	count : 1,
 	countsum3 : function(){
 		return this.count ++ ;
-	}
+	},
 	countminus3: function(){
 		return this.count -- ;
 	}
-}
-var arr =[];
+};
+var array =[];
 
  function addtocart1(){
-   arr = arr.push(object1)
+    array.push(object1);
  }
 
- function addtocart1(){
-   arr = arr.push(object2)
+ function addtocart2(){
+    array.push(object2);
  }
 
- function addtocart1(){
-   arr = arr.push(object3)
- }
-
-
- function result(){
-
+ function addtocart3(){
+   array.push(object3);
  }
 
