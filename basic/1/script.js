@@ -1,4 +1,4 @@
-$('document').ready(function() {
+$(document).ready(function() {
 
 $('#white').on('click', function() {
 	$('.output').text("It's the white gift box!");
