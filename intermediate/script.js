@@ -33,3 +33,22 @@ var object3 = {
 		return this.count -- ;
 	}
 }
+var arr =[];
+
+ function addtocart1(){
+   arr = arr.push(object1)
+ }
+
+ function addtocart1(){
+   arr = arr.push(object2)
+ }
+
+ function addtocart1(){
+   arr = arr.push(object3)
+ }
+
+
+ function result(){
+
+ }
+
