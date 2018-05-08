@@ -33,4 +33,3 @@ var object3 = {
 		return this.count -- ;
 	}
 }
-
